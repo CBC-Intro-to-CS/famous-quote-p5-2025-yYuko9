@@ -22,8 +22,33 @@ while purchase_tickets:
 
 print("Thank you for purchasing your tickets!")
 """
-
+"""
 count = 0
 for nums in [3, 41, 12, 9, 74, 15]:
     count = count + 1
 print("Count: " + str(count))
+
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()} is a Magician.")
+
+print("Thank you everyone, that was a good show!")
+"""
+
+#useing range function
+for value in range(1, 6):
+    print(value)
+
+numerbers = list(range(1, 6))
+print(numerbers)
+
+even_numbers = list(range(2, 11, 2))
+print(even_numbers)
+
+squares = []
+for value in range(1, 11):
+    square = value ** 2
+    squares.append(square)
+
+    
+print(squares)
